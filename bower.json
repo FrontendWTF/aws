@@ -9,5 +9,8 @@
     "angular",
     "aws"
   ],
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "dependencies": {
+    "aws-sdk": "~2.0.28"
+  }
 }
