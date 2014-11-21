@@ -1,7 +1,6 @@
 {
   "name": "aws",
   "main": "aws.js",
-  "version": "0.1.0",
   "homepage": "https://github.com/FrontendWTF/aws",
   "authors": [
     "L42y <423300@gmail.com>"
