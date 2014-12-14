@@ -1,9 +1,17 @@
 angular.module('aws', [
 ]).provider('AWS', function (
 ) {
+  var options = {};
   var provider = {
-    config: function configureAWS (config) {
-      AWS.config.update(config);
+    config: function configureAWS (extra) {
+      if (extra) {
+        options = angular.extend(options, extra);
+        AWS.config.update(options);
+
+        return provider;
+      } else {
+        return options;
+      }
     },
     $get: function (
       $window
