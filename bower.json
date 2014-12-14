@@ -11,6 +11,6 @@
   ],
   "license": "WTFPL",
   "dependencies": {
-    "aws-sdk": "~2.0.28"
+    "aws-sdk": "~2.1.2"
   }
 }
